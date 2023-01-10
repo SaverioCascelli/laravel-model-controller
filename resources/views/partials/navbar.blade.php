@@ -6,5 +6,8 @@
         <li class="px-3">
             <a href="{{ route('about_us') }}">about us</a>
         </li>
+        <li>
+            <a href="{{ route('movies') }}">movies</a>
+        </li>
     </ul>
 </div>

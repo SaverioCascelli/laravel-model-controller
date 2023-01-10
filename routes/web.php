@@ -16,4 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'index'])->name('home');
 
-Route::get('about-us', [PageController::class, 'about_us'])->name('about_us');
+Route::get('/about-us', [PageController::class, 'about_us'])->name('about_us');
+
+Route::get('/movies', [PageController::class, 'movies'])->name('movies');
+
+Route::get('/movie-detail/{id}', [PageController::class, 'movieDetail'])->name('movieDetail');
